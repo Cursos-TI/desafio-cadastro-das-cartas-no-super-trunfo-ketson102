@@ -1,20 +1,48 @@
 #include <stdio.h>
 int main (){
-char País;
-char Codigodacarta [20];
-char Estado;
-int  População;
-float AreaKM²;
-float PIB;
-int Pontosturisticos;
+char País1 [20];
+char Codigodacarta1 [20];
+char Estado1[20];
+int  População1;
+float Area1(KM²);
+float PIB1;
+int Pontosturisticos1[30];
 printf("Digite seu país: \n");
 scanf("%s",&País);
 printf("Digite codigo da carta: \n");
-scanf("%d",&Codigodacarta);
+scanf("%s",Codigo_da_carta);
 printf("Digite o nome do estado: \n");
-scanf("%s",&Estado );
+scanf("%s",&Estado);
 printf("Digite a população: \n");
-scanf("%d",&População);
+scanf("%d",População);
+printf("Digite a area em KM²: \n");
+scanf("%f",Area);
+printf("Digite o PIB:\n");
+scanf("%f"PIB);
+printf("Digite o ponto turistico:\n");
+scanf("%s"Pontos_turisticos);
+
+char País2 [25];
+char Codigodacarta2 [25];
+char Estado2[30];
+int  População2;
+float Area2(KM²);
+float PIB2;
+int Pontosturisticos2[40];
+printf("Digite seu país: \n");
+scanf("%s",&País);
+printf("Digite codigo da carta: \n");
+scanf("%s",Codigo_da_carta);
+printf("Digite o nome do estado: \n");
+scanf("%s",&Estado);
+printf("Digite a população: \n");
+scanf("%d",População);
+printf("Digite a area em KM²: \n");
+scanf("%f",area);
+printf("Digite o PIB;\n");
+scanf("%f"pib);
+printf("Digite ponto turistico:\n");
+scanf("%s"ponto_turistico);
 
 
 
